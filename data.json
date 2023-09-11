@@ -1,0 +1,68 @@
+{
+  "currentUser": {
+    "image": { 
+      "png": "./images/avatars/image-juliusomo.png",
+      "webp": "./images/avatars/image-juliusomo.webp"
+    },
+    "username": "John Doe"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "I was very glad to have you after such a long time. Can you plan a meetup? Maybe this weekend?",
+      "createdAt": "1 month ago",
+      "score": 12,
+      "user": {
+        "image": { 
+          "png": "./images/avatars/image-amyrobson.png",
+          "webp": "./images/avatars/image-amyrobson.webp"
+        },
+        "username": "Maria"
+      },
+      "replies": []
+    },
+    {
+      "id": 2,
+      "content": "Home sweet home! I’m glad you are back. It’s been two year and miss the football matches we have together. A lot has been changed since you left. Let’s meet at the ground tomorrow evening?",
+      "createdAt": "2 weeks ago",
+      "score": 5,
+      "user": {
+        "image": { 
+          "png": "./images/avatars/image-maxblagun.png",
+          "webp": "./images/avatars/image-maxblagun.webp"
+        },
+        "username": "Alex Benjamin"
+      },
+      "replies": [
+        {
+          "id": 3,
+          "content": "Hey bud, welcome back to home. It’s so long to see you back again. Would love to hear the travelling stories of yours. Your or my place?",
+          "createdAt": "1 week ago",
+          "score": 4,
+          "replyingTo": "Alex Benjamin",
+          "user": {
+            "image": { 
+              "png": "./images/avatars/image-ramsesmiron.png",
+              "webp": "./images/avatars/image-ramsesmiron.webp"
+            },
+            "username": "John Doe"
+          }
+        },
+        {
+          "id": 4,
+          "content": "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.",
+          "createdAt": "2 days ago",
+          "score": 2,
+          "replyingTo": "ramsesmiron",
+          "user": {
+            "image": { 
+              "png": "./images/avatars/image-juliusomo.png",
+              "webp": "./images/avatars/image-juliusomo.webp"
+            },
+            "username": "Tania"
+          }
+        }
+      ]
+    }
+  ]
+}
